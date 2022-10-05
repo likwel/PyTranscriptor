@@ -68,7 +68,7 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
+        Form.setWindowTitle(_translate("Form", "PyTranscriptor"))
         self.pushButton.setText(_translate("Form", "Importer un fichier"))
         self.label.setText(_translate("Form", "Nom de fichier"))
         self.pushButton_2.setText(_translate("Form", "Lancer"))
