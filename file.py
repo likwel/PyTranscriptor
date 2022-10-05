@@ -47,7 +47,8 @@ class Ui_Form(object):
             print(text)
 
     def convert(self):
-        speechLowFile(label.toPlainText())
+        print(self.label.text())
+        self.speechLowFile(self.label.text())
 
     def get_file(self):
         file , check = QFileDialog.getOpenFileName(None, "QFileDialog.getOpenFileName()","", "All Files (*);;Mp3 Files (*.mp3);;Mp4 Files (*.mp4);;Wav Files (*.wav)")
